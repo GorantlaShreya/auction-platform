@@ -1,13 +1,15 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/MyNavbar";
-import Homepage from "./components/Homepage"; 
+import Homepage from "./components/Homepage";
+import Home from "./components/Home";
 import About from "./components/About";
 import Services from "./components/Services";
 import Contact from "./components/Contact";
 import SignIn from "./components/SignIn1";  
 import SignUp from "./components/SignUp1";  
-import AuctionList from "./components/AuctionList";  // ✅ Import AuctionList
+import AuctionList from "./components/AuctionList";  
+
 
 function App() {
   return (
@@ -21,10 +23,11 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/signin" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
-        <Route path="/auctions" element={<AuctionList />} />  {/* ✅ Add AuctionList Route */}
+        <Route path="/auctions" element={<AuctionList />} />
       </Routes>
     </Router>
   );
 }
+
 
 export default App;

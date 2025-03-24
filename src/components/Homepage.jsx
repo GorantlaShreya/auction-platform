@@ -15,9 +15,8 @@ const Homepage = () => {
         <button onClick={() => navigate("/about")} className="nav-btn">About</button>
       </div>
 
-      {/* Contact Us at the Bottom */}
       <div className="contact-footer">
-        <p>Contact us at: example@email.com</p>
+        <p>Contact us at: ey@email.com</p>
       </div>
     </div>
   );

@@ -2,12 +2,11 @@ import React from "react";
 import { Navbar, Nav, Form, FormControl, Button, Dropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { FaShoppingCart, FaUser } from "react-icons/fa";
-import "./style.css"; // Ensure this file exists
+import "./style.css"; 
 
 const MyNavbar = () => {
   return (
     <div>
-      {/* Bootstrap Navbar */}
       <Navbar bg="dark" variant="dark" expand="lg" className="px-3">
       <Navbar.Brand as={Link} to="/">⚖️ Auction</Navbar.Brand>
         <Form className="d-flex mx-auto">

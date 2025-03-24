@@ -1,10 +1,8 @@
-/* Centering the homepage content */
 .home-container {
     text-align: center;
-    margin-top: 50px; /* Adjust spacing below navbar */
+    margin-top: 50px; 
 }
 
-/* Button container */
 .button-container {
     display: flex;
     justify-content: center;
@@ -12,13 +10,12 @@
     margin-top: 30px;
 }
 
-/* Medium-sized buttons */
 .nav-btn {
     background-color: #007bff;
     color: white;
     border: none;
-    padding: 12px 24px;  /* Increased padding for medium size */
-    font-size: 18px;  /* Medium text size */
+    padding: 12px 24px;  
+    font-size: 18px;  
     font-weight: bold;
     border-radius: 8px;
     cursor: pointer;
@@ -29,10 +26,9 @@
     background-color: #0056b3;
 }
 
-/* Contact Us section */
 .contact-footer {
     text-align: center;
-    font-size: 14px; /* Small size */
+    font-size: 14px; 
     color: gray;
-    margin-top: 50px; /* Push to bottom */
+    margin-top: 50px; 
 }

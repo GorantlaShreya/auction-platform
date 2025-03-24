@@ -1,6 +1,5 @@
 const Home = () => {
-    return <h1 className="content-box">This is the Home Page</h1>;
+    return <h1 className="content-box">We are trust worthy</h1>;
   };
-  
+ 
   export default Home;
-  
