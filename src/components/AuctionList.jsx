@@ -2,9 +2,9 @@ import React from "react";
 
 const AuctionList = () => {
   const auctions = [
-    { id: 1, title: "Vintage Watch", price: "$120" },
-    { id: 2, title: "Antique Painting", price: "$250" },
-    { id: 3, title: "Luxury Handbag", price: "$500" },
+    { id: 1, title: "Vintage Watch", price: "Rs120" },
+    { id: 2, title: "Antique Painting", price: "Rs250" },
+    { id: 3, title: "Luxury Handbag", price: "Rs500" },
   ];
 
   return (
