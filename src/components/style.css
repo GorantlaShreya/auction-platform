@@ -26,6 +26,14 @@
     background-color: #0056b3;
 }
 
+.bidding-section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
 .contact-footer {
     text-align: center;
     font-size: 14px; 
