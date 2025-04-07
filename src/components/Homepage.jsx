@@ -1,30 +1,18 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
-import Bidding from './Bidding'; // Importing Bidding component
-import "./style.css";
+import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Homepage = () => {
-  const navigate = useNavigate();
-
   return (
-    <div className="home-container">
+    <div className="text-center mt-5">
       <h1>Welcome to the Auction Platform</h1>
-
-      <div className="button-container">
-        <button onClick={() => navigate("/home")} className="nav-btn">Home</button>
-        <button onClick={() => navigate("/services")} className="nav-btn">Services</button>
-        <button onClick={() => navigate("/about")} className="nav-btn">About</button>
+      <div className="d-flex justify-content-center mt-4 gap-3">
+        <Button variant="primary" as={Link} to="/home">Home</Button>
+        <Button variant="primary" as={Link} to="/services">Services</Button>
+        <Button variant="primary" as={Link} to="/about">About</Button>
+        <Button variant="primary" as={Link} to="/post-auction">Post Auction</Button>
       </div>
-
-      {/* Bidding Section */}
-      <section className="bidding-section">
-        <h2>Start Bidding Now!</h2>
-        <Bidding /> {/* Add the Bidding component here */}
-      </section>
-
-      <div className="contact-footer">
-        <p>Contact us at: ey@email.com</p>
-      </div>
+      <p className="mt-4 text-muted">Contact us at: ey@email.com</p>
     </div>
   );
 };

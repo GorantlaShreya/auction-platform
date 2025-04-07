@@ -40,3 +40,35 @@
     color: gray;
     margin-top: 50px; 
 }
+.center-box {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .center-box input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  .center-box button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+  
+  .center-box button:hover {
+    background-color:  #0056b3;
+  }  
+  
